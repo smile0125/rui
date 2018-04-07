@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>简历首页</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/layer.css">-->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -271,11 +272,11 @@
                 </div>
             </div>
         </div>
-        <div class="row tab-img-row">
+        <div class="row tab-img-row" id="layer-photos-demo">
             <table>
                 <tr>
                     <td colspan="2" class="wow fadeInDown">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work1.png" alt="">
                             <div class="blue-info">
                                 <p>I DO WEB PAGE</p>
@@ -285,7 +286,7 @@
                         </div>
                     </td>
                     <td rowspan="3" class="wow fadeInLeft">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work2.png" alt="">
                             <div class="blue-info">
                                 <p>FASHION APP</p>
@@ -298,7 +299,7 @@
                 </tr>
                 <tr>
                     <td rowspan="3" class="wow fadeInRight">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work3.png" alt="">
                             <div class="blue-info">
                                 <p>AUTUMN ICON</p>
@@ -308,7 +309,7 @@
                         </div>
                     </td>
                     <td class="wow fadeInUp">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work4.png" alt="">
                             <div class="blue-info">
                                 <p>YIJU APP</p>
@@ -322,7 +323,7 @@
                 <tr>
                     <!--<td></td>-->
                     <td rowspan="2" class="wow fadeInUp">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work5.png" alt="">
                             <div class="blue-info">
                                 <p>KACHI APP</p>
@@ -337,7 +338,7 @@
                     <!--<td></td>-->
                     <!--<td></td>-->
                     <td class="wow fadeInLeft">
-                        <div class="work-img">
+                        <div class="work-img showImg">
                             <img src="image/work6.png" alt="">
                             <div class="blue-info">
                                 <p>SHENRUI WEB</p>
@@ -441,10 +442,18 @@
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!--<script src="js/layer.js"></script>-->
 <script src="js/wow.min.js"></script>
 <script src="js/index.js"></script>
 <script type="text/javascript">
     new WOW().init();
+
+//调用示例
+//     layer.photos({
+//         photos: '#layer-photos-demo'
+//         ,anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
+//     });
+
 </script>
 </body>
 </html>
