@@ -10,7 +10,9 @@ a {
 ul, li, ol, li {
     list-style: none;
 }
-
+body{
+    overflow: hidden;
+}
 body, html {
     font-family: "Microsoft YaHei";
     font-size: 14px;
