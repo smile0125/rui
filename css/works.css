@@ -1,0 +1,45 @@
+table>tbody>tr>td{
+    border:none!important;
+}
+table>tbody>tr>td>img{
+    opacity: 0.5;
+}
+table>tbody>tr>td>img:hover{
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition:1s all ease;
+}
+#webApp img{
+    opacity: 0.5;
+}
+#webApp img:hover{
+    opacity: 1;
+    transform:rotateY(360deg);
+    transition:1s all ease;
+}
+#others{
+    background: #f4f4f4;
+    padding-bottom: 6rem;
+}
+.bz-imgBox{
+    height: 350px;
+}
+.logo_box{
+    width: 170px;
+    height: 180px;
+}
+.logo_box img,.pclx img,.vi-img-box img,.bz-img-box img,.shlx img{
+    width: 100%;
+    height: 100%;
+}
+.border-radius-100 img{
+    border-radius: 100%;
+}
+.logo_box img:hover,.pclx img:hover,.vi-img-box img:hover,.bz-img-box img:hover,.shlx img:hover{
+    box-shadow:3px 3px 15px rgba(0,0,0,0.3);
+    -webkit-transition: prop 1s;
+    -moz-transition: prop 1s;
+    -ms-transition: prop 1s;
+    -o-transition: prop 1s;
+    transition: prop 1s;
+}

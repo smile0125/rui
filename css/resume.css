@@ -1,0 +1,25 @@
+.picBox{
+    width: 160px;
+    height: 160px;
+    background: url(../image/pic.jpg) no-repeat center 25%;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    top: -50%;
+}
+.tou_picBox{
+    height: 160px;
+}
+
+.infoTitle{
+    color: #111111;
+}
+.infoText{
+    color: #5a5a5a;
+}
+.edu_bg{
+    background: #f4f4f4;
+    padding-bottom: 6rem;
+}
+.edu_img{
+    width: 100%;
+}

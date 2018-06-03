@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li, ol, li {
+    list-style: none;
+}
+
+body, html {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.ty-padding{
+    padding: 6rem 0;
+}
+.ty-color{
+    background: #eeeeee;
+}
+.ty-padding-2rem{
+    padding: 2rem 0;
+}
+.ty-title-img{
+    text-align: center;
+}
+.ty-dot{
+    width: 5px;
+    height: 5px;
+    border: 1px solid #87bdc9;
+    background: #87bdc9;
+    border-radius: 100%;
+    display: inline-block;
+}
+/*------*/
+#nav{
+    height: 66px;
+    background: #ffffff;
+    margin-bottom: 0;
+}
+.nav-left-logo{
+    float: left;
+    line-height: 66px;
+}
+.nav-right-menu{
+    float: right;
+    line-height: 66px;
+}
+.nav-right-menu li{
+    float: left;
+    margin-right: 25px;
+}
+.nav-right-menu li:last-child{
+    margin-right: 0;
+}
+.bta{
+    color: #000000;
+    /*text-decoration: none;*/
+}
+.bta.active{
+    color: #87bdc9;
+    border-bottom: 2px solid #87bdc9;
+}
+.bta:link{
+    text-decoration: none;
+}
+/*.bta:visited{*/
+/*text-decoration: none;*/
+/*}*/
+.bta:hover{
+    color: #87bdc9;
+    text-decoration: none;
+    border-bottom: 2px solid #87bdc9;
+}
+/*banner start*/
+#banner .img-box{
+    position: relative;
+}
+#banner .banner-img{
+    width: 100%;
+}
+#banner .banner-img-name{
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    animation: 1.5s banner-name linear 1;
+}
+@keyframes banner-name {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*===================*/
+.relative{
+    position: relative;
+}
+.absolute{
+    position:absolute;
+}
+.align-center{
+    text-align: center;
+}
+.align-right{
+    text-align: right;
+}
+.color{
+    color: #87bdc9;
+}
+.line{
+    display: block;
+    border: 1px solid #87bdc9;
+}
+.margin-top-2{
+    margin-top: 2rem;
+}
+.margin-top-4{
+    margin-top: 4rem;
+}
+.margin-bottom-1{
+    margin-bottom: 1rem;
+}
+.margin-top-6{
+    margin-top: 6rem;
+}
+/*===================*/
+/*maill me*/
+.btn-bg{
+    width: 100%;
+    height: 140px;
+    background: #eeeeee;
+}
+.btn-bg:hover{
+    background: #87bdc9;
+    box-shadow: 0 8px 10px #5e99a6;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn-row{
+    margin-top: 4rem;
+}
+.sm-icon-box{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 12%;
+    overflow: hidden;
+}
+.icon-right-text{
+    display: inline-block;
+}
+.icon-right-text>p:first-child{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.btn-bg:hover .icon-img{
+    transform: translateY(-48px);
+    transition: .5s;
+}
+/*footer*/
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+.footer-padding{
+    padding: 2rem 0;
+}
+.footer-padding p:last-child{
+    margin-bottom: 0;
+}
